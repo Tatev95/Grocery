@@ -1,38 +1,78 @@
-.App {
+.grocery-center{
   text-align: center;
+  margin: 0 auto;
+  text-align: center;
+  margin: 0 auto;
+  box-shadow: 5px 5px 5px 5px #888888;
+  width: 600px;
+  padding: 100px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+input{
+  padding: 10px;
+  background-color:rgb(220, 235, 240);
+  border: none;
+  border-radius: 5px;
+  width: 400px;
+  margin: 10px;
+  outline: none;
+  
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.form-control{
+  width: 600px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+button{
+  padding: 15px;
+  border-radius: 5px;
+  border: navajowhite;
+  color: gray;
+}
+button:hover{
+  cursor: pointer;
+  background-color: gray;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.grocery-btn{
+  background-color: white;
+  color: red;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.grocery-item{
+display: flex;
+width: 400px;
+justify-content: space-around;
+margin-left: 20px;
+}
+
+.title{
+  width: 300px;
+  text-align: start;
+  margin-left: 35px;
+}
+
+.alert-success{
+  background-color: lightgreen;
+  border-radius: 5px;
+  padding: 5px;
+  color: #888888;
+}
+
+.alert-danger{
+  background-color: rgb(238, 74, 74);
+  border-radius: 5px;
+  padding: 5px;
+  color: #888888;
+}
+
+.edit-btn{
+  background-color: aquamarine;
+  color: white;
+}
+.delete-btn{
+  background-color: red;
+  color: white;
+
 }
